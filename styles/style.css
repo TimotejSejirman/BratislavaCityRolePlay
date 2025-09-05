@@ -1,0 +1,194 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  background-color: #0f0c1f;
+}
+
+#hero {
+  position: relative;
+  height: 50vh;
+  background: url("BC_RP-baner.jpg") center/cover no-repeat;
+}
+
+#hero .overlay {
+  position: absolute;
+  inset: 0; /* vyplní celú sekciu */
+  background: rgba(0, 0, 0, 0.7); /* čierne polopriehľadné prekrytie */
+}
+
+#hero .content {
+  position: relative; /* aby text nebol pod overlayom */
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#hero .content p {
+    font-size: 25px;
+}
+
+#hero .content h1 {
+    font-size: 100px;
+}
+
+.Odkazy {
+  position: absolute;    /* odkazy budú plávať */
+  top: 18px;             /* vzdialenosť od vrchu stránky */
+  left: 50%;             /* posunie ich do stredu */
+  transform: translateX(-50%); /* presné centrovanie */
+  display: flex;
+  gap: 50px;
+}
+
+.hore {
+  background-color: darkblue;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.hore:hover {
+  background-color: rgb(11, 11, 235);
+  transform: scale(1.03); /* zväčší o 3% */
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.O-nás {
+  position: absolute;    /* odkazy budú plávať */
+  top: 650px;             /* vzdialenosť od vrchu stránky */
+  left: 50%;             /* posunie ich do stredu */
+  transform: translateX(-50%); /* presné centrovanie */
+  color: white;
+}
+
+.O-nás h1 {
+  font-size: 35px;
+}
+
+.O-nás p {
+  font-size: 19px;;
+}
+
+.Ponuka {
+  position: absolute;    /* odkazy budú plávať */
+  top: 1000px;             /* vzdialenosť od vrchu stránky */
+  left: 50%;             /* posunie ich do stredu */
+  transform: translateX(-50%); /* presné centrovanie */
+  color: white;
+}
+
+.Ponuka h1 {
+  font-size: 35px;
+}
+
+.Ponuka span {
+  font-size: 19px;
+  background: rgba(71, 71, 71, 0.8);
+  padding: 40px 40px;
+  border-radius: 20px;
+}
+
+.Pripojenie {
+  position: absolute;    /* odkazy budú plávať */
+  top: 1700px;             /* vzdialenosť od vrchu stránky */
+  left: 50%;             /* posunie ich do stredu */
+  transform: translateX(-50%); /* presné centrovanie */
+  color: white;
+}
+
+.Pripojenie h1 {
+  font-size: 35px;
+}
+
+.Pripojenie span {
+  font-size: 19px;
+}
+
+.Pripojenie a {
+  background-color: darkblue;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.odkaz:hover {
+  background-color: rgb(11, 11, 235);
+  transform: scale(1.03); /* zväčší o 3% */
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.Pripojenie img {
+  width: 70px;
+}
+
+.discord {
+  position: absolute;    /* odkazy budú plávať */
+  top: 700px;             /* vzdialenosť od vrchu stránky */
+  left: 50%;             /* posunie ich do stredu */
+  transform: translateX(-50%); /* presné centrovanie */
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px 40px;
+  border-radius: 20px;
+}
+
+.discord h1 {
+  font-size: 35px;
+}
+
+.dis {
+  background: rgba(43, 42, 42, 0.8);
+  padding: 40px 40px;
+  border-radius: 20px;
+}
+
+.dis span {
+  font-size: 19px;
+}
+
+.pravidlarp {
+  position: absolute;    /* odkazy budú plávať */
+  top: 1750px;             /* vzdialenosť od vrchu stránky */
+  left: 50%;             /* posunie ich do stredu */
+  transform: translateX(-50%); /* presné centrovanie */
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px 40px;
+  border-radius: 20px;
+}
+
+.pravidlarp h1 {
+  font-size: 35px;
+}
+
+.rp {
+  background: rgba(43, 42, 42, 0.8);
+  padding: 40px 40px;
+  border-radius: 20px;
+}
+
+.rp span {
+  font-size: 19px;
+}
+
+.Copyright {
+  position: absolute;    /* odkazy budú plávať */
+  top: 2400px;             /* vzdialenosť od vrchu stránky */
+  left: 50%;             /* posunie ich do stredu */
+  transform: translateX(-50%); /* presné centrovanie */
+  color: white;
+}
+
+.copyright {
+  position: absolute;    /* odkazy budú plávať */
+  top: 3300px;             /* vzdialenosť od vrchu stránky */
+  left: 50%;             /* posunie ich do stredu */
+  transform: translateX(-50%); /* presné centrovanie */
+  color: white;
+}
