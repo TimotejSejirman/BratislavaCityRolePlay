@@ -34,7 +34,7 @@ body {
 
 .Odkazy {
   position: absolute;    /* odkazy budú plávať */
-  top: 18px;             /* vzdialenosť od vrchu stránky */
+  top: 13px;             /* vzdialenosť od vrchu stránky */
   left: 50%;             /* posunie ich do stredu */
   transform: translateX(-50%); /* presné centrovanie */
   display: flex;
